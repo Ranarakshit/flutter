@@ -18,7 +18,24 @@ class MyApp extends StatelessWidget {
         appBar:AppBar(
           title: Text("Rana"),
         ) ,
-         body: Text("my first app"),
+         body: Column(
+           children: [
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+             Text("my first app"),
+           ],
+         ),
       )
 
     );
